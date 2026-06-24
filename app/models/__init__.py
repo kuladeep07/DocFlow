@@ -1,2 +1,2 @@
-from app.models.Users import Users
-from app.models.Documents import Documents
+from app.models.users import Users
+from app.models.documents import Documents

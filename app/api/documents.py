@@ -3,7 +3,7 @@ from fastapi.params import Depends
 from sqlalchemy.orm import Session
 
 from app.db.database import get_db
-from app.models.Documents import Documents
+from app.models.documents import Documents
 from app.services.documents.pipeline import process_documents
 
 documents_router = APIRouter()
